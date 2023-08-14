@@ -20,11 +20,10 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-    <img src="./images/acc.jpg" alt="" />
-    </>
-      
-    
+    </>    
   );
 }
 
 export default App;
+
+// <img src="./images/acc.jpg" alt="" />
