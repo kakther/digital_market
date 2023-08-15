@@ -43,26 +43,29 @@ const Footer = () => {
                   <br /> 11228 USA</address>
                   <a 
                      href="tel:1800-888-4444" 
-                     className="mt-4 d-block mb-2 text-white">
+                     className="mt-3 d-block mb-2 text-white">
                      1800-888-4444
+                     <a href="/" >
+                   </a>
+
                   </a>
                   <a 
                     href="mailto:newhaven@gmail.com" 
-                    className="mt-4 d-block mb-2 text-white">
+                    className="mt-2 d-block mb-0 text-white">
                     newhaven@gmail.com
                   </a>
-                  <div className="div social_icons d-flex align-items-center gap-15">
-                    <a href="/" >
-                      <BsLinkedin />
+                  <div className='d-flex align-items-center gap-30 mt-4'>
+                    <a className="text-white" href="/" >
+                      <BsLinkedin className='fs-4'/>
                     </a>
-                    <a href="/" >
-                      <BsGithub />
+                    <a className="text-white" href="/" >
+                      <BsGithub className='fs-4'/>
                     </a>
-                    <a href="/" >
-                      <BsYoutube />
+                    <a className="text-white" href="/" >
+                      <BsYoutube className='fs-4'/>
                     </a>
-                    <a href="/" >
-                      <BsInstagram />
+                    <a className="text-white" href="/" >
+                      <BsInstagram className='fs-4'/>
                     </a>
                   </div>
               </div>
