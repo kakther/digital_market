@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -116,6 +116,72 @@ const Home = () => {
                   <h6>Secure Payments</h6>
                   <p className="mb-0">100% Protected Payments</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     <section className="home-wrapper-2 py-5">
+      <div className="container-xxl">
+        <div class="row">
+          <div className="col-12">
+            <div className="categories d-flex justify-content-between flex-wrap align-items-center">
+              <div className="d-flex align-items-center">
+                <div>
+                  <h6>Cameras</h6>
+                  <p>10 Items</p>
+                </div>
+                  <img src="./images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex align-items-center">
+              <div>
+                <h6>Music & Gaming</h6>
+                <p>10 Items</p>
+              </div>
+                <img src="./images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex  align-items-center">
+              <div>
+                <h6>Smart Tv</h6>
+                <p>10 Items</p>
+              </div>
+                <img src="./images/tv.jpg" alt="tv" />
+              </div>
+              <div className="d-flex  align-items-center">
+              <div>
+                <h6>Smart Watch</h6>
+                <p>10 Items</p>
+              </div>
+                <img src="./images/headphone.jpg" alt="watch" />
+              </div>
+              <div className="d-flex  align-items-center">
+                <div>
+                  <h6>Cameras</h6>
+                  <p>10 Items</p>
+                </div>
+                  <img src="./images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex  align-items-center">
+              <div>
+                <h6>Music & Gaming</h6>
+                <p>10 Items</p>
+              </div>
+                <img src="./images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex  align-items-center">
+              <div>
+                <h6>Smart Tv</h6>
+                <p>10 Items</p>
+              </div>
+                <img src="./images/tv.jpg" alt="tv" />
+              </div>
+              <div className="d-flex  align-items-center">
+              <div>
+                <h6>Smart Watch</h6>
+                <p>10 Items</p>
+              </div>
+                <img src="./images/headphone.jpg" alt="watch" />
               </div>
             </div>
           </div>
