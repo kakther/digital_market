@@ -6,14 +6,16 @@ import { Link } from "react-router-dom"
 const ProductCard = () => {
   return (
     <div className="col-3">
-        <div className="product-card position-relative">
+        <Link className="product-card position-relative">
             <div className="wishlist-icon position-absolute">
                 <Link>
                     <img src="./images/wish.svg" alt="wishlist" />
                 </Link>
             </div>
             <div className="product-image">
-                <img src="./images/watch.jpg" alt="productimage" />
+                <img src="./images/watch.jpg" className="img-fluid" alt="productimage" />
+                <img src="./images/watch-1.avif" className="img-fluid" alt="productimage" />
+
             </div>
             <div className="product-details">
                 <h6 className="brand">Havels</h6>
@@ -25,7 +27,8 @@ const ProductCard = () => {
                     size={24} 
                     value="3" 
                     edit={false}
-                    activeColor="#ffd700" />
+                    activeColor="#ffd700"
+                 />
                 <p className="price">$100.00</p>
             </div>
             <div className="action-bar position-absolute">
@@ -41,7 +44,7 @@ const ProductCard = () => {
                     </Link>    
                 </div>
             </div>
-        </div>  
+        </Link>  
     </div>
   )
 }
