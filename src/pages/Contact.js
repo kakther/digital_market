@@ -1,8 +1,8 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
-import {AiOutlineHome, AiOutlineMail}  from 'react-icons/ai'
-import {BiPhoneCall, BiInfoCircle} from 'react-icons/bi'
+import { AiOutlineHome, AiOutlineMail } from 'react-icons/ai'
+import { BiPhoneCall, BiInfoCircle } from 'react-icons/bi'
 const Contact = () => {
   return (
     <>
@@ -29,32 +29,32 @@ const Contact = () => {
                   <h3 className="contact-title mb-4">Contact</h3>
                   <form action="" className='d-flex flex-column gap-15'>
                     <div>
-                      <input 
-                        type="text" 
-                        className='form-control' 
+                      <input
+                        type="text"
+                        className='form-control'
                         placeholder='Name'
                       />
                     </div>
                     <div>
-                      <input 
-                        type="text" 
-                        className='form-control' 
+                      <input
+                        type="text"
+                        className='form-control'
                         placeholder='Email'
                       />
                     </div>
                     <div>
-                    <input 
-                      type="tel" 
-                      className='form-control' 
-                      placeholder='Mobile Number'
-                    />
-                  </div>
+                      <input
+                        type="tel"
+                        className='form-control'
+                        placeholder='Mobile Number'
+                      />
+                    </div>
                     <div>
-                      <textarea 
-                        name="" 
-                        id="" 
+                      <textarea
+                        name=""
+                        id=""
                         className='w-100 form-control'
-                        cols="30" 
+                        cols="30"
                         rows="4"
                         placeholder='Comments'
                       ></textarea>
@@ -69,21 +69,21 @@ const Contact = () => {
                   <div>
                     <ul className='ps-0'>
                       <li className='mb-3 d-flex gap-15 align-items-center'>
-                        <AiOutlineHome className='fs-5'/>
+                        <AiOutlineHome className='fs-5' />
                         <address className='mb-0'>
                           277 Underhill Ave, Suite 330, Boston, MA
                         </address>
                       </li>
                       <li className='mb-3 d-flex gap-15 align-items-center'>
-                        <BiPhoneCall className='fs-5'/>
+                        <BiPhoneCall className='fs-5' />
                         <a href="tel:+1 718-398-4396">+1 718-398-4396</a>
                       </li>
                       <li className='mb-3 d-flex gap-15 align-items-center'>
-                        <AiOutlineMail className='fs-5'/>
+                        <AiOutlineMail className='fs-5' />
                         <a href="mailto:zahara@co.com">zahara@co.com</a>
                       </li>
                       <li className='mb-3 d-flex gap-15 align-items-center'>
-                        <BiInfoCircle className='fs-5'/>
+                        <BiInfoCircle className='fs-5' />
                         <p className='mb-0'>Monday - Friday 9AM - 10PM</p>
                       </li>
                     </ul>
