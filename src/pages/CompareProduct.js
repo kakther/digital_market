@@ -17,7 +17,7 @@ const CompareProduct = () => {
                                 <img
                                     src="images/cross.svg"
                                     alt="cross"
-                                    className='position-absolute cross'
+                                    className='position-absolute cross img-fluid'
                                 />
                                 <div className="product-card-image">
                                     <img src="images/watch.jpg" alt="watch" />
